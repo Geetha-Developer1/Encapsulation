@@ -36,14 +36,14 @@ namespace Encapsulation
     }
     internal class newmodel
     {
-        static void Main(string[] args)
-        {
-            BankAccount ba = new BankAccount(10000, "1234");
-            ba.Deposite(5000);
-            ba.Withdraw(6000, "1234");
-            ba.Withdraw(2000,"3333");
-            Console.WriteLine("Available Balance:" + ba.Balance);
+        //static void Main(string[] args)
+        //{
+        //    BankAccount ba = new BankAccount(10000, "1234");
+        //    ba.Deposite(5000);
+        //    ba.Withdraw(6000, "1234");
+        //    ba.Withdraw(2000,"3333");
+        //    Console.WriteLine("Available Balance:" + ba.Balance);
 
-        }
+        //}
     }
 }
