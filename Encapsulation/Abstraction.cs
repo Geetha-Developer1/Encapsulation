@@ -8,6 +8,7 @@ namespace Encapsulation
 {
     abstract class Abstractclass
     {
+        
         public void start()
         {
             Console.WriteLine("Started The Class");
@@ -28,19 +29,19 @@ namespace Encapsulation
         {
             
             {
-                Console.WriteLine("Sessiojn has End");
+                Console.WriteLine("Session has End");
             }
         }
     }
     internal class Abstraction
     {
-       static void Main(string[] args)
-        {
-            Abstractclass d=new DerivedClass();
-            d.End();
-            d.start();
-            d.Resume();
-            d.Display();
-        }
+       //static void Main(string[] args)
+       // {
+       //     Abstractclass d = new DerivedClass();
+       //     d.End();
+       //     d.start();
+       //     d.Resume();
+       //     d.Display();
+       // }
     }
 }
