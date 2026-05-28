@@ -61,14 +61,14 @@ namespace Encapsulation
     }
     internal class ProgramByUsingAbstractAndEncapsulation
     {
-        static void Main(string[] args)
-        {
-            BankAccount1 b = new SavingAccount(30000);
-            Console.WriteLine("Initial hoBalance:" + b.Balance);
-            b.AccountType();
-            b = new CurrentAccount(50000);
-            b.AccountType();
+        //static void Main(string[] args)
+        //{
+        //    BankAccount1 b = new SavingAccount(30000);
+        //    Console.WriteLine("Initial hoBalance:" + b.Balance);
+        //    b.AccountType();
+        //    b = new CurrentAccount(50000);
+        //    b.AccountType();
            
-        }
+        //}
     }
 }
