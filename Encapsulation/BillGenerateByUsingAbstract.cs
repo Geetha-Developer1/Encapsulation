@@ -48,24 +48,24 @@ namespace Encapsulation
     }
     internal class BillGenerateByUsingAbstract
     {
-        static void Main(string[] args)
-        {
-            HMWBS obj = new ResidentialCustomer();
-            obj.BillDetails();
-            Console.WriteLine("Enter Consumed Units:");
-            double units=double.Parse(Console.ReadLine());
-            obj.GetBill(units);
+        //static void Main(string[] args)
+        //{
+        //    HMWBS obj = new ResidentialCustomer();
+        //    obj.BillDetails();
+        //    Console.WriteLine("Enter Consumed Units:");
+        //    double units=double.Parse(Console.ReadLine());
+        //    obj.GetBill(units);
 
-            obj = new CommercialCustomer();
-            obj.GetBill(units);
+        //    obj = new CommercialCustomer();
+        //    obj.GetBill(units);
 
-            obj = new IndustryCustomers();
-            obj.GetBill(units);
+        //    obj = new IndustryCustomers();
+        //    obj.GetBill(units);
 
-            obj=new AgriculturCustomer();
-            obj.GetBill(units);  
+        //    obj=new AgriculturCustomer();
+        //    obj.GetBill(units);  
 
 
-        }
+        //}
     }
 }

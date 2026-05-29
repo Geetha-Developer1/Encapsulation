@@ -45,11 +45,14 @@
   <ItemGroup>
     <Compile Include="Abstraction.cs" />
     <Compile Include="BillGenerateByUsingAbstract.cs" />
+    <Compile Include="Example.cs" />
     <Compile Include="HospitalPatient.cs" />
     <Compile Include="newmodel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramByUsingAbstractAndEncapsulation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SMS.cs" />
+    <Compile Include="VehicleExample.cs" />
     <Compile Include="VirstualMethod.cs" />
     <Compile Include="WithdrawAmountwithPin.cs" />
   </ItemGroup>
