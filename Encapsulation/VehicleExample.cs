@@ -53,19 +53,19 @@ namespace Encapsulation
     }
     internal class VehicleExample
     {
-        static void Main(string[] args)
-        {
-            //VehicleData v = new VehicleData(9999, "Audi", "A8");
-            //v.ShowVehicleDetails();
-            //v.DisplayModel();
-            //v.VehicleType();
-            //v.ModelType();
+        //static void Main(string[] args)
+        //{
+        //    //VehicleData v = new VehicleData(9999, "Audi", "A8");
+        //    //v.ShowVehicleDetails();
+        //    //v.DisplayModel();
+        //    //v.VehicleType();
+        //    //v.ModelType();
 
-            Vehicle m = new VehicleData(8888, "ABC", "A1");
-           // m.ModelType();  its not exicuted because Vehicle does not have modeltype
-            m.ShowVehicleDetails();
-            m.VehicleType();
-            // m.DisplayModel();   its not exicuted because Vehicle does not have vehicletype
-        }
+        //    Vehicle m = new VehicleData(8888, "ABC", "A1");
+        //   // m.ModelType();  its not exicuted because Vehicle does not have modeltype
+        //    m.ShowVehicleDetails();
+        //    m.VehicleType();
+        //    // m.DisplayModel();   its not exicuted because Vehicle does not have vehicletype
+        //}
     }
 }

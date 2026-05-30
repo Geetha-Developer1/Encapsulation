@@ -48,6 +48,7 @@
     <Compile Include="Example.cs" />
     <Compile Include="HospitalPatient.cs" />
     <Compile Include="newmodel.cs" />
+    <Compile Include="PersonExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramByUsingAbstractAndEncapsulation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
